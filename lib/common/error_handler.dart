@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:deep_route/deep_route.dart';
-import 'package:retrome/features/error/ui/error.dart';
+import 'package:retrome/features/error/error.dart';
 
 ///check error on function
 Future<dynamic> checkError({required Function() target}) async {

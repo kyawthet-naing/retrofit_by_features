@@ -23,7 +23,7 @@ class _FDAState extends State<FDA> {
       ),
       body: FutureBuilder(
         future: checkError(
-          target: () => ApiService(sl<DioClient>().dio).getQuote(),
+          target: () => ApiService(sl<DioClient>().dio).getFDA(),
         ),
         builder: (ctx, snapshot) {
           if (snapshot.hasData) {

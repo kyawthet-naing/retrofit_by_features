@@ -8,5 +8,5 @@ abstract class ApiService {
   factory ApiService(Dio dio) = _ApiService;
 
   @GET('?skip={skip}&limit=20')
-  Future<FDAModel> getQuote({@Path() int skip = 0});
+  Future<FDAModel> getFDA({@Path() int skip = 0});
 }

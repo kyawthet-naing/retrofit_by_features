@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:retrome/features/home/ui/widgets/home_tile.dart';
+import 'package:retrome/features/home/widgets/home_tile.dart';
 import 'package:retrome/features/photo/ui/photo.dart';
 import 'package:retrome/features/product/ui/product.dart';
-import 'package:retrome/features/fda/ui/quote.dart';
+import 'package:retrome/features/fda/ui/fda.dart';
 import 'package:retrome/features/user/ui/user.dart';
 
 class Home extends StatefulWidget {

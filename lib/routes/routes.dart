@@ -1,10 +1,10 @@
-import 'package:retrome/features/home/ui/home.dart';
+import 'package:retrome/features/home/home.dart';
 import 'package:retrome/features/photo/ui/photo.dart';
 import 'package:retrome/features/product/ui/product.dart';
 import 'package:retrome/features/splash/splash.dart';
 import 'package:flutter/cupertino.dart';
-import '../features/error/ui/error.dart';
-import '../features/fda/ui/quote.dart';
+import '../features/error/error.dart';
+import '../features/fda/ui/fda.dart';
 import '../features/user/ui/user.dart';
 
 class Rotues {

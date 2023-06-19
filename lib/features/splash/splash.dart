@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:retrome/common/loading_widget.dart';
-import 'package:retrome/features/home/ui/home.dart';
+import 'package:retrome/features/home/home.dart';
 
 class Splash extends StatefulWidget {
   static const String route = "/";
